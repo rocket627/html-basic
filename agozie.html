@@ -4,19 +4,38 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<style>
+		input[type="submit"]{
+font-family:cursive;
+margin: 20px auto;
+display: block;
+border-radius: 15px;
+cursor: pointer;
+padding: 10px 20px;
+background: lightcoral;
+}
+.as{
+	background: blue;
+	font-family: fantasy;
+	font-weight: bold;
+	color: whitesmoke;
+}
+	</style>
+	<title>Blogpost.com</title>
 </head>
 <body style="background-color: papayawhip; font-family: cursive;">
+	<header>
 <marquee  behaviour="alternate"direction="left"loop="-1" scrollamount="7">Welocome to my blog where we post fashion trends,news and exectera &#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084</marquee>
-
-<h1></h1>
-	<p><img src="assets/dam.jpg"><br>
+	<p> 
+		<img src="assets/dam.jpg">
+		<br>
 	&#x1F31F Hey there,friend!&#x1F49B 	Welcome to my little corner of the internet- a cozy space where ideas,stories and inspiration come to life. &#x2728 Whether you're here to learn,laugh, or just find a bit of comfort, I'm so glad you stopped by. Grab a &#x2615 , settle in,and let's share something special together.&#x1F338</p>
-
+    <nav>
 	<p>
 	 Here is a list of collections you can find in our blog:	
 	 <ul>
-			<li><a href="./danny.html"rel="noopener noreferrer">
+			<li>
+				<a href="./danny.html"rel="noopener noreferrer">
 			Children's Wear</a>	
 			</li>
 
@@ -24,45 +43,77 @@
 			<a href="./success.html" rel="noopener noreferrer">Male Wear</a>	
 			</li>
 			<li>
-						<a href="./success.html">	Female Wear</a>
+		<a href="./success.html">	Female Wear</a>
 			</li>
 
 		</ul>
+	</nav>
+	</header>
 	</p>
-<p><pre>
+	<main>
+<p>
+	<pre>
 	Here is some examples of our brand</p>
-	<marquee  behaviour="slide"direction="bottom"loop="-1" scrollamount="7"> 
+	<marquee  behaviour="slide"direction="bottom"loop="-1" scrollamount="7" class="as"> 
 		<img src="assets/2.jpg" width="290"height="220"> 
 	<img src="assets/67.jpg" width="290"height="220">
-	<img src="assets/90.jpg" width="290"height="220">               
-</marquee><br><br></pre>
+	<img src="assets/90.jpg" width="290"height="220">
+	<img src="assets/2.jpg"width="290"height="220">
+	<img src="assets/Amore.jpg"width="290"height="220">
+	<img src="assets/34.jpg"width="290"height="220">
+	<img src="assets/67.jpg"width="290"height="220"> 
+	<img src="assets/87.jpg"width="290"height="220">              
+</marquee>
+<br><br>
+</pre>
 </p>
 <hr>
-<form action="danny.html"method="post">
-	<marquee><h1> Sign into the blog</h1></marquee>
+<form action=""method="post">
+	<marquee>
+		<h1> Sign into the blog</h1>
+	</marquee>
 	
 	<p>
 		<label for="email">Email Required:</label>
-		&nbsp&nbsp<input type="email" name="email"id="email">
+		&nbsp&nbsp
+		<input type="email" name="email"id="email">
 		<br><br>
-		<p><label for="fname"> First Name:</label>
-		&nbsp&nbsp<input type="text" name="text"id="fname">
+		</p>
+		<p>
+			<label for="fname"> First Name:</label>
+		&nbsp&nbsp
+		<input type="text" name="text"id="fname">
 		<br><br>
+	</p>
+	<p>
 		<label for="lname">Last Name:</label>
-		&nbsp&nbsp<input type="text" name="text2"id="lname">
+		&nbsp&nbsp
+		<input type="text" name="text2"id="lname">
 		<br><br>
+	</p>
+	<p>
         <label for="password">password:</label>
-        &nbsp&nbsp<input type="password"name="password"id="password">
+        &nbsp&nbsp
+        <input type="password"name="password"id="password">
         <br><br>
+    </p>
+    <p>
         <label for="fashionnum"> Years of Fahion experience:</label>
-        &nbsp&nbsp<input type="number" name="number"id="fashionnum"step="1">
+        &nbsp&nbsp
+        <input type="number" name="number"id="fashionnum"step="1">
         <br><br>
+    </p>
+    <p>
         <label for="scale">Scale of fashion sense:</label>
-	    &nbsp&nbsp<input type="range" name="scale"min="10"max="100"step="1"id="scale">
+	    &nbsp&nbsp
+	    <input type="range" name="scale"min="10"max="100"step="1"id="scale">
 	    <br><br>
+	</p>
+	<p>
 	    <input type="submit"Value="submit" >
 	</p>
 </form>
+</main>
 <hr>
 		<footer>
 		<address>
