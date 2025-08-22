@@ -4,7 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<style>
+	<link rel="icon" type="image/x-icon" href="assets/fav.jpg">	
+	<style type="text/css">
 		input[type="submit"]{
 font-family:cursive;
 margin: 20px auto;
@@ -12,42 +13,49 @@ display: block;
 border-radius: 15px;
 cursor: pointer;
 padding: 10px 20px;
-background: lightcoral;
-}
-.as{
-	background:whitesmoke;
-	font-family: fantasy;
-	font-weight: bold;
-	color: whitesmoke;
+background: lightblue;
 }
 hr{
 	border: groove;
 	height: 3px;
 	border-top: 2px dashed;
 	border-width: 5px;
+	animation: slideIn 1s forwards;
+}
+@keyframes slideIn{ 
+to
+	{
+		width: 100%;
+}
 }
 body{
 	background-color:papayawhip; 
 	font-family: cursive;
 	background-image: url("assets/background.jpg");
+	margin: 0;
+	height: 235vh;
+
 
 }
 p{
-	color: darkred;
+	color: lightblue;
+	text-shadow: 2px 2px blue;
 }
 marquee{
-	color: darkred;
+	color: lightblue;
+	text-shadow: 2px 2px blue;
 }
 address{
-	color: darkred;
+	color: lightblue;
+	text-shadow: 2px 2px blue;
 }
 ul{
-	color: darkred;
+	color: lightblue;
 }
 	</style>
 	<title>Blogpost.com</title>
 </head>
-<body style="background-color: papayawhip; font-family: cursive;">
+<body>
 	<header>
 <marquee  behaviour="alternate"direction="left"loop="-1" scrollamount="7">Welocome to my blog where we post fashion trends,news and exectera &#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084&#10084</marquee>
 	<p> 
@@ -88,8 +96,6 @@ ul{
 	<img src="assets/87.jpg"width="290"height="220">              
 </marquee>
 <br><br>
-</pre>
-</p>
 <hr>
 <form action=""method="post">
 	<marquee>
@@ -99,25 +105,29 @@ ul{
 	<p>
 		<label for="email">Email Required:</label>
 		&nbsp&nbsp
-		<input type="email" name="email"id="email">
+		<input type="email" name="email"id="email" placeholder="email" required>
 		<br><br>
 		</p>
 		<p>
 			<label for="fname"> First Name:</label>
 		&nbsp&nbsp
-		<input type="text" name="text"id="fname">
+		<input type="text" name="text"id="fname"placeholder="First Name" required>
 		<br><br>
 	</p>
 	<p>
 		<label for="lname">Last Name:</label>
 		&nbsp&nbsp
-		<input type="text" name="text2"id="lname">
+		<input type="text" name="text2"id="lname"placeholder="Last Name" required>
 		<br><br>
 	</p>
 	<p>
         <label for="password">password:</label>
         &nbsp&nbsp
-        <input type="password"name="password"id="password">
+        <input type="password"name="password"id="password" placeholder="password" required  pattern="[0-9@#%&*!ABCdef]">
+        <br>
+       <strong>
+        <small> Password must be at least 6 characters, contain an uppercase,lowercase,symbols and numbers</small>
+       </strong>
         <br><br>
     </p>
     <p>
