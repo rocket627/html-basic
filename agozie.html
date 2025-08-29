@@ -15,12 +15,18 @@ cursor: pointer;
 padding: 10px 20px;
 background: lightblue;
 }
+#scriptures{
+	color: lightblue;
+	text-align: right;
+	font-family: fantasy;
+	font-size: 20px;
+}
 hr{
 	border: groove;
 	height: 3px;
-	border-top: 2px dashed;
+	border-top: 2px solid black;
 	border-width: 5px;
-	animation: slideIn 1s forwards;
+	color: wheat;
 }
 @keyframes slideIn{ 
 to
@@ -51,6 +57,10 @@ address{
 }
 ul{
 	color: lightblue;
+}
+legend{
+	color: lightblue;
+	text-shadow: 2px 2px blue;
 }
 	</style>
 	<title>Blogpost.com</title>
@@ -97,45 +107,49 @@ ul{
 </marquee>
 <br><br>
 <hr>
+<br>
+<fieldset>
+	<legend>Sign into the blog</legend>
 <form action=""method="post">
 	<marquee>
 		<h1> Sign into the blog</h1>
 	</marquee>
 	
-	<p>
-		<label for="email">Email Required:</label>
-		&nbsp&nbsp
-		<input type="email" name="email"id="email" placeholder="email" required>
-		<br><br>
-		</p>
+
 		<p>
 			<label for="fname"> First Name:</label>
 		&nbsp&nbsp
-		<input type="text" name="text"id="fname"placeholder="First Name" required>
+		<input type="text" name="text"id="fname"placeholder="eg:John" required>
 		<br><br>
 	</p>
 	<p>
 		<label for="lname">Last Name:</label>
 		&nbsp&nbsp
-		<input type="text" name="text2"id="lname"placeholder="Last Name" required>
+		<input type="text" name="text2"id="lname"placeholder="eg:Plamer" required>
 		<br><br>
 	</p>
+		<p>
+		<label for="email">Email Required:</label>
+		&nbsp&nbsp
+		<input type="email" name="email"id="email" placeholder="eg:xxxxx@gmail.com" required>
+		<br><br>
+		</p>
 	<p>
         <label for="password">password:</label>
         &nbsp&nbsp
-        <input type="password"name="password"id="password" placeholder="password" required  pattern="[0-9@#%&*!ABCdef]">
+        <input type="password"name="password"id="password" placeholder="**********" required  pattern="[0-9@#%&*!ABCdef]"minlength="6"maxlength="12">
         <br>
-       <strong>
+        <strong>
         <small> Password must be at least 6 characters, contain an uppercase,lowercase,symbols and numbers</small>
        </strong>
-        <br><br>
     </p>
+        <br><br>
     <p>
         <label for="fashionnum"> Years of Fahion experience:</label>
         &nbsp&nbsp
         <input type="number" name="number"id="fashionnum"step="1">
+        </p>
         <br><br>
-    </p>
     <p>
         <label for="scale">Scale of fashion sense:</label>
 	    &nbsp&nbsp
@@ -145,8 +159,10 @@ ul{
 	<p>
 	    <input type="submit"Value="submit" >
 	</p>
+	    </fieldset>
 </form>
 </main>
+<br>
 <hr>
 		<footer>
 		<address>
@@ -164,6 +180,13 @@ ul{
 		Telephone No:<a href="tel:+2349018324279">:+2349018324279</a>
 		</p>
 	</address>
+		<br>
+	<p id="scriptures">
+		Ecclesiastes 8:4
+		"
+		Where the word of a <strong>king</strong> there is<strong> power</strong>: and who may say unto him, what doest thou?
+		"
+	</p>
 	</footer>
 </body>
 </html>
