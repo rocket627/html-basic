@@ -1,0 +1,56 @@
+input[type="submit"]{
+font-family:cursive;
+margin: 20px auto;
+display: block;
+border-radius: 15px;
+cursor: pointer;
+padding: 10px 20px;
+background: lightblue;
+}
+#scriptures{
+	color: lightblue;
+	text-align: right;
+	font-family: fantasy;
+	font-size: 20px;
+}
+hr{
+	border: groove;
+	height: 3px;
+	border-top: 2px solid black;
+	border-width: 5px;
+	color: wheat;
+}
+@keyframes slideIn{ 
+to
+	{
+		width: 100%;
+}
+}
+body{
+	background-color:papayawhip; 
+	font-family: cursive;
+	background-image: url("assets/background.jpg");
+	margin: 0;
+	height: 235vh;
+
+
+}
+p{
+	color: lightblue;
+	text-shadow: 2px 2px blue;
+}
+marquee{
+	color: lightblue;
+	text-shadow: 2px 2px blue;
+}
+address{
+	color: lightblue;
+	text-shadow: 2px 2px blue;
+}
+ul{
+	color: lightblue;
+}
+legend{
+	color: lightblue;
+	text-shadow: 2px 2px blue;
+}
