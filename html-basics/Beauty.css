@@ -54,3 +54,48 @@ legend{
 	color: lightblue;
 	text-shadow: 2px 2px blue;
 }
+figcaption{
+color: lightblue;
+text-shadow: 2px 2px blue;
+}
+.bold{
+	font-size: 50px;
+	font-weight: 5px;
+	text-shadow: 2px 2px blue;
+}
+#girls{
+	color: lightblue;
+	text-shadow: 2px 2px blue;
+}
+#boys{
+	color: lightblue;
+	text-shadow: 2px 2px blue;
+}
+.assets{
+	text-align: center;
+	font-family: serif;
+	font-size: 50px;
+	font-weight: 5px;
+}
+.bold{
+font-size: 50px;
+	font-weight: 5px;
+	text-shadow: 2px 2px blue;
+	text-align: center;
+	font-family: serif;
+}
+.pro{
+	font-size: 50px;
+	font-weight: 5px;
+	text-shadow: 2px 2px blue;
+	text-align: center;
+	font-family: serif;
+}
+#women{
+	color: lightblue;
+	text-shadow: 2px 2px blue;
+}
+#men{
+	color: lightblue;
+	text-shadow: 2px 2px blue;
+}
