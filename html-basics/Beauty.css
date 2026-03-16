@@ -48,6 +48,7 @@ address{
 	text-shadow: 2px 2px blue;
 }
 ul{
+border: 1px groove gold;
 	color: lightblue;
 }
 legend{
@@ -98,4 +99,18 @@ font-size: 50px;
 #men{
 	color: lightblue;
 	text-shadow: 2px 2px blue;
+}
+li{
+	list-style-type: armenian;
+	margin-bottom: 10px;
+list-style-position: outside;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+	display: flex;
+
+}
+a:hover{
+	color: inherit;
 }
